@@ -28,6 +28,10 @@
 
 #include<System.h>
 
+#include <ctime>
+#include <cerrno>
+//#include <unistd.h>
+
 using namespace std;
 
 void LoadImages(const string &strFile, vector<string> &vstrImageFilenames,

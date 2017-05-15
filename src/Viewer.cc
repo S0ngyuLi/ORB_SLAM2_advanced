@@ -23,6 +23,10 @@
 
 #include <mutex>
 
+#include <ctime>
+#include <cerrno>
+//#include <unistd.h>
+
 namespace ORB_SLAM2
 {
 

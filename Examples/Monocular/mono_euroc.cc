@@ -27,8 +27,13 @@
 #include<opencv2/core/core.hpp>
 
 #include<System.h>
+#include <ctime>
+#include <cerrno>
+//#include <unistd.h>
 
 using namespace std;
+
+
 
 void LoadImages(const string &strImagePath, const string &strPathTimes,
                 vector<string> &vstrImages, vector<double> &vTimeStamps);
