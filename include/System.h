@@ -35,6 +35,7 @@
 #include "KeyFrameDatabase.h"
 #include "ORBVocabulary.h"
 #include "Viewer.h"
+#include <unistd.h> // fix the issue with usleep
 
 namespace ORB_SLAM2
 {
